@@ -1,0 +1,39 @@
+{
+  "name": "gulp-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development npx gulp build && NODE_ENV=development npx gulp",
+    "cache": "npx gulp cache",
+    "build": "NODE_ENV=production npx gulp build --production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "okada",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "browser-sync": "^2.27.7",
+    "css-declaration-sorter": "^6.1.3",
+    "gulp": "^4.0.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-mode": "^1.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.0.0",
+    "gulp-tinypng-extended": "^3.0.3",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.3.11",
+    "sass": "^1.43.4",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-stream": "^7.0.0"
+  }
+}
